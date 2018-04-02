@@ -18,10 +18,16 @@
         {
             // Retrieve the API key from the environment variables. See the project README for more info about setting this up.
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
-            var fromEmail = "phong.ha@sage.com";
+            /* var fromEmail = "phong.ha@sage.com";
             var fromEmailAliasName = "Phong Ha";
             var toEmail = "phong89.ha@outlook.com";
-            var toEmailAlias = "Phong89";
+            var toEmailAlias = "Phong89"; */
+			
+			//Modify the follow values with your from/to email addresses. 
+			var fromEmail = "first.lastname@example.com";
+            var fromEmailAliasName = "First LastName";
+            var toEmail = "first.last@example.com";
+            var toEmailAlias = "First LastNmae";
             
             if (apiKey == null)
             {

@@ -17,7 +17,7 @@
         static async Task Execute()
         {
             // Retrieve the API key from the environment variables. See the project README for more info about setting this up.
-            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
+            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
 
             var client = new SendGridClient(apiKey);
 
